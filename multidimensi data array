@@ -1,8 +1,26 @@
+var input = [//baris satu
+  ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"],
+  //baris dua
+  ["0002", "Dika Sembiring", "Medan", "10/10/1992", "Bermain Gitar"],
+  //baris tiga
+  ["0003", "Winona", "Ambon", "25/12/1965", "Memasak"],
+  //baris empat
+  ["0004", "Bintang Senjaya", "Martapura", "6/4/1970", "Berkebun"]
+]
+function dataHandling(input){
+var dataHandling = input[i];
+for(var j = 0; j < input.length; j++) {
+display("input[" + i + "][" + j + "] = " + input[j]);
+}
+}
+console.log('Nomor ID:'+ input );
+// console.log('Nama lengkap:'+ input[1]);
+// console.log('TTL: '+input[2]+', '+input[3]);
+// console.log('hobi:' + input[4]);
 
 
-
-
-
+ 
+//contoh output
 // Nomor ID:  0001
 // Nama Lengkap:  Roman Alamsyah
 // TTL:  Bandar Lampung 21/05/1989

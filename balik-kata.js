@@ -1,4 +1,5 @@
-function balikString(kata) {
+function balikKata(kata) {
+  
   var kataTerbalik = '';
 
   for(var i = kata.length - 1; i >= 0; i--) {
@@ -6,8 +7,6 @@ function balikString(kata) {
   }
   return kataTerbalik;
 }
-console.log(hello world!)
 
-//input "hello world!"
-//output
-"!dlrow olleh"
+// TEST CASES
+console.log(balikKata('Hello World!'));
