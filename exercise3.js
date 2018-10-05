@@ -6,13 +6,16 @@ var input = [
             ]
             
 function dataHandling(array){
-    for(i=0;i<array.length;i++){
-    console.log('Nomor ID : '+ array [i][0])
-    console.log('Nama Lengkap : '+ array [i][1])
-    console.log('TTL : '+ array [i][2]+', '+array [i][3])
-    console.log('hobi : '+ array [i][4])
+    //[i] digunakan untuk otomatisasi pengabsenan index pada array
+    //[i] [0] digunakan untuk menunjukan array kedua dari array utama(multidimension array)
+    for(var i = 0; i < array.length ; i++ ){
+    console.log('Nomor ID : '+ array [i] [0] )
+    console.log('Nama Lengkap : '+ array [i] [1] )
+    console.log('TTL : '+ array [i] [2]+', '+ array [i] [3] )
+    console.log('hobi : '+ array [i] [4] )
     console.log('')
     }
+    
 }
 dataHandling(input)
 
