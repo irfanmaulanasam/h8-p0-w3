@@ -1,4 +1,5 @@
 function mengelompokkanAngka(arr) {
+
   var angkaGenap = [];
 
   var angkaGanjil = [];
@@ -7,20 +8,23 @@ function mengelompokkanAngka(arr) {
   
   var hasil = [];
   
-  hasil.push(angkaGenap, angkaGanjil, kelipatanTiga) ;
+  hasil.push( angkaGenap , angkaGanjil , kelipatanTiga ) ;
   
-  for (var i=0; i<arr.length; i++){
+  for ( var i=0 ; i<arr.length ; i++ ){
   
     if (arr [i] % 3 === 0 ) {
-      kelipatanTiga.push(arr[i]);
+      kelipatanTiga.push ( arr[i] );
+
     }
   
-    else if (arr [i] % 2 === 0) {
-      angkaGenap.push(arr[i]);
+    else if ( arr [i] % 2 === 0 ) {
+      angkaGenap.push ( arr[i] );
+
     }
   
     else {
-      angkaGanjil.push(arr[i]);
+      
+      angkaGanjil.push( arr[i] );
     }
   } return hasil
 }
